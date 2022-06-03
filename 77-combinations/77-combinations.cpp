@@ -31,9 +31,7 @@ public:
         vector<vector<int>> v;
         int index=0;
         vector<int>a;
-        // for(int i=0;i<n;i++){
-        //     a.push_back(i+1);
-        // }
+        
         
        vector<int>aux(k+2);
         pp(index,v,n,k,aux,0);
