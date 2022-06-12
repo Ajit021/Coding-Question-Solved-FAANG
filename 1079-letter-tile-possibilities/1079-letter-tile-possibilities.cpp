@@ -10,9 +10,10 @@ public:
                 swap(tiles[index],tiles[j]);
                 h(tiles,count,index+1);
                 swap(tiles[index],tiles[j]);
-                m[tiles[j]]++;
+                
             count++;
             }
+            m[tiles[j]]++;
             
         }
     }
