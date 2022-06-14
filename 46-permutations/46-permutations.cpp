@@ -3,7 +3,7 @@ public:
     
     
     void pp(int i,vector<int>& nums,vector<vector<int>> &ans,int n){
-        if(i==n-1){
+        if(i==n){
             ans.push_back(nums);
             return;
         }
