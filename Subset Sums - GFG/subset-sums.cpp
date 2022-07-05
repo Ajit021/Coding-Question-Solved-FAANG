@@ -29,11 +29,11 @@ void pp(vector<int>&arr, int i,int N,vector<int>&v,int sum){
 }
     vector<int> subsetSums(vector<int> arr, int N)
     {
-        // Write Your Code here
+      
         vector<int>v;
-        //v.push_back(0);
+    
       pp(arr,0,N,v,0);
-     //sort(p.begin(),p.end());
+     
         return p;
         
     }
